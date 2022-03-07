@@ -1,0 +1,5 @@
+<ul *ngFor="let item of array1, let i=index">
+    <li>{{item.title}}</li>
+    <li>{{item.desc}}</li>
+    <button (click)="delete(i)">Delete</button>
+</ul>
